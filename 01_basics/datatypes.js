@@ -20,3 +20,7 @@ let IsLoggedIn = true
 //object
 
 console.log(typeof null);
+console.log(typeof "");
+console.log(typeof undefined);
+console.log(typeof age);
+
