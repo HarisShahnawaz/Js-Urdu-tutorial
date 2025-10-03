@@ -72,11 +72,28 @@ console.log(true);
 
 // console.log(true+);
 
-console.log(""); 
+// console.log(""); 
 
-console.log(+ ""); 
+// console.log(+ ""); 
 
-console.log(+ "");
+// console.log(+ "");
+
+
+let num1,num2,num3;
+
+num1= num2= num3 = 2+2;
+
+console.log(num1,num2,num3);
+
+let scoreCounter = 100
+
+scoreCounter++;
+
+console.log(scoreCounter);
+
+
+
+
 
 
 
