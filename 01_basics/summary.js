@@ -71,3 +71,29 @@ console.log(typeof myFunction);
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+//**************************************************** */
+
+
+// stack (primitive), heap(non primitive)
+
+let  myYoutubeName = "HARISSHAHNAWAZ8888"
+
+let anothername = myYoutubeName
+
+anothername = "haris and code"
+console.log(anothername);
+console.log( myYoutubeName)
+
+
+let userone ={
+    email : "harisshahanawaz97@gmail.com",
+    upi : "0322",
+}
+
+let usertwo = userone
+
+usertwo.email = "google@gmail.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
