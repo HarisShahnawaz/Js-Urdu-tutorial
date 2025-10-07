@@ -30,7 +30,7 @@ fbuser.isloggedin = true
 //const obj3 = Object.assign({} ,obj1,obj2,obj4)
 
 const obj3 = {...obj1, ...obj2, ...obj4}
- console.log(obj3);
+//  console.log(obj3);
  
 
  const users = [
@@ -50,11 +50,30 @@ const obj3 = {...obj1, ...obj2, ...obj4}
 
  users[1].email
 
- console.log(fbuser);
+//  console.log(fbuser);
  
- console.log(Object.keys(fbuser));
- console.log(Object.values(fbuser));
- console.log(Object.entries(fbuser));
+//  console.log(Object.keys(fbuser));
+//  console.log(Object.values(fbuser));
+//  console.log(Object.entries(fbuser));
  
- console.log(fbuser.hasOwnProperty("isloggedin"));
- console.log(fbuser.hasOwnProperty("islogged"));
+//  console.log(fbuser.hasOwnProperty("isloggedin"));
+//  console.log(fbuser.hasOwnProperty("islogged"));
+
+
+ const course = {
+    coursename : "math",
+    price : "999",
+    courseteacher : "javaid"
+ }
+
+ //course.courseteacher
+const {courseteacher : teacher} = course;
+console.log(teacher);
+
+// {
+//     "name ": "haris"
+//     "coursename" : "math"
+//     "price ": "free"
+// }
+
+
