@@ -32,3 +32,29 @@ fbuser.isloggedin = true
 const obj3 = {...obj1, ...obj2, ...obj4}
  console.log(obj3);
  
+
+ const users = [
+    {
+        id : 1,
+        email : "haris@gmail.com",
+    },
+    {
+        id : 1,
+        email : "haris@gmail.com",
+    },
+    {
+        id : 1,
+        email : "haris@gmail.com",
+    }
+ ]
+
+ users[1].email
+
+ console.log(fbuser);
+ 
+ console.log(Object.keys(fbuser));
+ console.log(Object.values(fbuser));
+ console.log(Object.entries(fbuser));
+ 
+ console.log(fbuser.hasOwnProperty("isloggedin"));
+ console.log(fbuser.hasOwnProperty("islogged"));
