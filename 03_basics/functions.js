@@ -86,7 +86,7 @@ function return2ndval(getArr){
   return getArr[1]
 }
 
-// console.log(return2ndval( MyNewArr));
+ console.log(return2ndval( MyNewArr));
 console.log(return2ndval([200,33,1111,334,5555]));
 
 
