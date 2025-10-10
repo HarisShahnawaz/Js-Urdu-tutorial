@@ -60,7 +60,9 @@ return num + 1
 // add2(5)  error Cannot access 'add2' before initialization
 
 const add2 = function(num){
-    return num + 2
+    return num + 4
 }
+
+
 
 console.log(add2(5));
