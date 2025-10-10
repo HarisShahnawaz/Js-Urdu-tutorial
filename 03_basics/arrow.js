@@ -56,8 +56,8 @@ const user = {
 
 const addtwo = (num1 , num2 ) => ({username : "haris"})  
 
-   
-
 
 console.log(addtwo(3,6));
+
+
 
