@@ -89,5 +89,7 @@ function return2ndval(getArr){
  console.log(return2ndval( MyNewArr));
 console.log(return2ndval([200,33,1111,334,5555]));
 
+// this is comment 
+
 
 
