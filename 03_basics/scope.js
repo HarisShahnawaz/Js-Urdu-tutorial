@@ -66,3 +66,5 @@ const add2 = function(num){
 
 
 console.log(add2(5));
+
+//scope
