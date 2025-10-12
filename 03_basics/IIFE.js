@@ -2,6 +2,7 @@
 
 
 (function chai(){
+    //named iffe
     console.log(`db connected`);
     
 })();
