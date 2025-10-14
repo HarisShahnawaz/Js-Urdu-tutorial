@@ -43,3 +43,23 @@ if(score > 100){
     console.log(`user power : ${power}`);
     
 }
+
+
+
+
+const balance = 1000
+
+// if(balance > 500) console.log("test");
+
+if(balance < 500){
+    console.log("less than 500");
+    
+}else if(balance < 700){
+  console.log("less than 700");
+}
+else if(balance < 900){
+  console.log("less than 900");
+}
+else {
+  console.log("less than 1200");
+}
