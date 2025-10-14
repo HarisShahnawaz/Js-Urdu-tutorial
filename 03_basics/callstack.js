@@ -8,6 +8,7 @@ function two(){
 }
 function three(){
     console.log("three")
+    two()
 }
 
 one()
