@@ -1,7 +1,4 @@
-const { useEffect } = require("react");
-
-const UserEmail = "haris@ai"
-
+const UserEmail = []
 if (UserEmail) {
     console.log("Got user email");
     
@@ -19,7 +16,6 @@ if (UserEmail) {
 // true ,"0" ,"false"," ",[],{},function(){}
 
 
-if(UserEmail.length ===0){
+if(UserEmail.length === 0){
     console.log("array is empty");
-    
 }
