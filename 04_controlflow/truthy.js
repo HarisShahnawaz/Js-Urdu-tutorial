@@ -1,4 +1,4 @@
-const UserEmail = []
+const UserEmail = [] 
 if (UserEmail) {
     console.log("Got user email");
     
@@ -6,7 +6,6 @@ if (UserEmail) {
      console.log("dont have user email");
      
 }
-
 // falsy values
 
 // false , 0 ,-0, bigint 0n,null,undefined,NaN, ""  all are falsy values 
@@ -16,6 +15,13 @@ if (UserEmail) {
 // true ,"0" ,"false"," ",[],{},function(){}
 
 
-if(UserEmail.length === 0){
-    console.log("array is empty");
+// if(UserEmail.length === 0){
+//     console.log("array is empty");
+// }
+
+
+const emptyobj ={}
+
+if (emptyobj) {
+    
 }
