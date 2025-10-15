@@ -67,4 +67,16 @@ else {
 
 
 const UserLoggedIn = true
-// const 
+ const  Debitcard = true
+ const LoggedInFromGoogle = false
+const LoggedInFromEmail = true
+
+ if(UserLoggedIn &&  Debitcard && 2==2){    //2===3 if one statement is wrong the if condition does not work
+    console.log("Allow  to buy cources");
+    
+ }
+
+if(LoggedInFromGoogle || LoggedInFromEmail ){
+   console.log("user logged in");
+   
+}
