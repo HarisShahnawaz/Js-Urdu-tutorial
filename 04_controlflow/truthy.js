@@ -22,6 +22,7 @@ if (UserEmail) {
 
 const emptyobj ={}
 
-if (emptyobj) {
+if (Object.keys(emptyobj).length === 0) {
+    console.log("Object is empty");
     
 }
