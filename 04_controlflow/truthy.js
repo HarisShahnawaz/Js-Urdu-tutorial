@@ -26,3 +26,13 @@ if (Object.keys(emptyobj).length === 0) {
     console.log("Object is empty");
     
 }
+
+// nullish coalescing operator (??) : null undefined
+
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+
+val1 = undefined ?? 15
+
+console.log(val1);
