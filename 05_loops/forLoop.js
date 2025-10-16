@@ -12,7 +12,8 @@ for (let  i = 0;  i <= 10; i++) {
 // console.log(element);  out of scope so this gave an error
 
 
-for (let i = 1; i <= 10 ; i++) {
+for (let i = 1; i <= 10 ; i++) {  // loop in a loop 
+    //print tables of 1 to 10
     // console.log(`outerloop value : ${i}`);
     
     for (let j = 1; j <=10 ; j++) {
