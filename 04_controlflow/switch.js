@@ -33,28 +33,29 @@ switch (month1) {
         break;
 }
 
-const month2= "marc"
+// const month2= "march"
 
-switch (month2) {
-    case "jan":
-        console.log("january");
+// switch (month2) {
+//     case "jan":
+//         console.log("january");
         
-        break;
-    case "feb":
-        console.log("feb");
+//         break;
+//     case "feb":
+//         console.log("feb");
         
-        break;
-    case "march":
-        console.log("march");
+//         break;
+//     case "march":
+//         console.log("march");
         
-        break;
-    case "april":
-        console.log("april");
+//         break;
+//     case "april":
+//         console.log("april");
         
-        break;
+//         break;
 
-    default:
-        console.log("default case match");
+//     default:
+//         console.log("default case match");
         
-        break;
-}
+//         break;
+// }  this is for string datatypes cases
+
