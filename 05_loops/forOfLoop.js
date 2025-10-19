@@ -23,4 +23,10 @@ map.set('pak',"pakistan")
 map.set('usa',"united states")
 map.set('fr',"france")
 
-console.log(map);
+// console.log(map);
+
+
+for (const key of map) {
+    console.log(key);
+    
+}
