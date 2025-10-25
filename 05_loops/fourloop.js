@@ -28,4 +28,10 @@ for (const key in programming) {
 // for (const key in map) {
 //    console.log(key);
    
-// }                         map is not iterable
+// }                         map is not iterable 
+
+const array = [1,2,23,3,444,4]
+{
+   console.log(array);
+   
+}
