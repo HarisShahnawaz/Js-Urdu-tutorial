@@ -1,23 +1,19 @@
 const myObject = {
-   js : 'javascript',
-   cpp : 'c++',
-   css: 'css',
-   rb : 'ruby'
-}
+  js: "javascript",
+  cpp: "c++",
+  css: "css",
+  rb: "ruby",
+};
 for (const key in myObject) {
-   // console.log(myObject[key]);
-   // console.log(`${key} shortcut for ${myObject[key]}`);
-   
+  // console.log(myObject[key]);
+  // console.log(`${key} shortcut for ${myObject[key]}`);
 }
 
-const programming = ["c++" , "js" , "ruby", "swift" , "docker"]
+const programming = ["c++", "js", "ruby", "swift", "docker"];
 
 for (const key in programming) {
-   
-   // console.log(key);
-   // console.log(programming[key]);
-   
-
+  // console.log(key);
+  // console.log(programming[key]);
 }
 
 // const map = new Map()
@@ -27,11 +23,10 @@ for (const key in programming) {
 
 // for (const key in map) {
 //    console.log(key);
-   
-// }                         map is not iterable 
 
-const array = [1,2,23,3,444,4]
+// }                         map is not iterable
+
+const array = [1, 2, 23, 3, 444, 4];
 {
-   console.log(array);
-   
+  console.log(array);
 }
