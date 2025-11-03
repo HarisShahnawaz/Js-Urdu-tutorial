@@ -35,9 +35,12 @@ const books = [
     { title: 'Book Eight', genre: 'Science', publish: 2011, edition: 2016 },
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
-const userbooks = books.filter((bk) => bk.genre === 'History'
-)
+let userbooks = books.filter((bk) => bk.genre === 'History') 
+userbooks = books.filter((bk) => { 
+  return bk.publish >= 1995 && bk.genre === 'History'
 
+}) // {is a scope so you use return keyword}
 console.log(userbooks);
+
 
 
