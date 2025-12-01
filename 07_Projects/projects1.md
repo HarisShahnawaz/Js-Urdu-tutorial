@@ -102,7 +102,62 @@ const Startover = document.querySelector('.resultParas')
 
 const p = document.createElement('p')
 
-let previousGuess = []
+let prevGuess = []
+ let   numGuess = 1
+
+
+ let playGame = true;
+
+ if(playGame){
+   submit.addEventListener('click', function(e){
+         e.preventDefault();
+         const guess =  parseInt(userinput.value);
+         Validateguess()
+   });
+  }
+
+
+ function Validateguess(guess){
+   if(isNaN(guess)){
+     alert('plz enter a valid number')
+   }else if(guess < 1){
+    alert('plz enter a number greater than 0')
+   }else if(guess > 100){
+    alert('plz enter a  number less than 100')
+   }
+   else{
+     prevGuess.push(guess)
+     if(numGuess === 11){
+      DisplayGuess(guess)
+      DisplayMessage
+     }
+   }
+
+ }
+
+ function CheckGuess(guess){
+
+ }
+
+ function DisplayGuess(guess){
+
+ }
+ function DisplayMessage(message){
+
+ }
+
+ function endgame(){
+   
+}
+
+ function newgame(){
+
+ }
+ 
+
+
+
+
 
 
 
