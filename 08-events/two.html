@@ -9,4 +9,22 @@
      <h1>chai with harry</h1>
      <button id="stop">Stop</button>
 </body>
+<script>
+    const Hiharis = function() {
+        console.log("Haris ");
+
+    }
+      const changecode = function () {
+         document.querySelector('h1').innerHTML = "Chai with HARIS"
+      }
+     const changeme =  setTimeout(changecode,5000)
+      
+     document.querySelector('#stop').addEventListener('click',function () {
+;             clearTimeout(changeme)
+          console.log("STOPPED");
+
+     },false)
+
+
+</script>
 </html>
