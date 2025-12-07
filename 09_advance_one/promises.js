@@ -60,8 +60,50 @@ console.log(error);
 })
 
 const promiseFive = new Promise(function(resolve,reject) {
+     setTimeout(function(){
+        let error = true;
+        if (!error) {
+        resolve({username : "JAVASCRIPT" , password: "123"})
+
+        }else{
+            reject("Error:JAVASCRIPT WENT WRONG")
+        }
+     },1000)
+}) 
+async function  consumepromiseFive() {
+  try {
+     const responce = await promiseFive;
+   console.log(responce);
+  } catch (error) {
+    console.log(error);
+    
+  }
+   
+}
+consumepromiseFive();
+
+// async function getAllUsers(){
+//  try {
+//      const responce =    await fetch('https://jsonplaceholder.typicode.com/users')
+            
+//                const data = await responce.json()
+//                 console.log(data);
+//  } catch (error) {
+//     console.log(error);
+    
+//  }
+// }
+// getAllUsers()
+
+fetch('https://api.github.com/users/harisshahnawaz')
+.then((responce) => {
+    return responce.json();
      
-})
-promiseFive.then(function () {
+}).then((data)=> {
+   console.log(data);
+   
+} )
+.catch((error)=> {
+    console.log(error);
     
 })
