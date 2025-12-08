@@ -14,4 +14,28 @@ const user = {
 console.log(user.username);
 console.log(user.getUserDetails());
 
+// console.log(this);
 
+
+function User(Username,loginCount,IsLoggedIn){
+   this.username = Username
+   this.loginCount = loginCount
+    this.IsLoggedIn = IsLoggedIn
+   
+
+
+    this.greeting = function(){
+      console.log(`${this.username}`);
+      
+    }
+    return this;
+}
+
+const userone = new User("haris",8,true)
+const usertwo =  new User("huzaifa",29,false)
+
+{
+   console.log(userone.constructor);
+   console.log(usertwo);
+   
+}
