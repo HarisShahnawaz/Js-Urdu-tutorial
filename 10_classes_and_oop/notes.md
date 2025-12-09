@@ -14,3 +14,9 @@
 -prototypes
 -classes
 -intances (new,this)
+
+##  4 pillars of oop
+-abstraction
+-inheritance
+-encapsulation
+-polymorphism

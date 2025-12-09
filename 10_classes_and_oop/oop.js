@@ -14,7 +14,7 @@ const user = {
 console.log(user.username);
 console.log(user.getUserDetails());
 
-// console.log(this);
+// console.log(this);   // you can access all data using this
 
 
 function User(Username,loginCount,IsLoggedIn){
