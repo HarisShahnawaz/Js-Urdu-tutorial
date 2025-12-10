@@ -37,5 +37,5 @@ const usertwo =  new User("huzaifa",29,false)
 {
    // console.log(userone.constructor);
    console.log(usertwo);
-   console.log(userone)
+   console.log(userone);
 }
