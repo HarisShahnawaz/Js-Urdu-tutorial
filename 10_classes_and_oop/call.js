@@ -10,3 +10,6 @@ function createuser(username,email,password){
 }
 const user1 = new createuser("haris","example@.com",2222)
 console.log(user1);
+
+const user2= new createuser("harisss","example@.com",2222)
+console.log(user2);
