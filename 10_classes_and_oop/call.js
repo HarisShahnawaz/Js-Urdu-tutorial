@@ -11,5 +11,9 @@ function createuser(username,email,password){
 const user1 = new createuser("haris","example@.com",2222)
 console.log(user1);
 
-const user2= new createuser("harisss","example@.com",2222)
+const user2= new createuser("harisss","example@.com",222332)
 console.log(user2);
+
+const user3= new createuser("harisssssss","example@.com",332)
+console.log(user3);
+
