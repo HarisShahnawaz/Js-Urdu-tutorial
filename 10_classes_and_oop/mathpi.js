@@ -36,6 +36,6 @@ for (let [key,value ] of Object.entries(chai)) {
          console.log(`${key},${value}`);
     
     }
-  
+//   this is a program for adjusting the fixed valaues
     
 }
